@@ -1,0 +1,68 @@
+import React, { useState } from "react";
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  NavIcon,
+  HamburgerIcon,
+  NavMenu,
+  NavItem,
+  NavLinks,
+} from "./Navbar.elements";
+
+import { FaBars, FaTimes } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
+
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
+
+  const closeMobileMenu = () => {
+    setClick(false);
+  };
+
+  return (
+    <div>
+      <IconContext.Provider value={{ color: "whitesmoke" }}>
+        <Nav>
+          <NavbarContainer>
+            <NavLogo to="/" onClick={closeMobileMenu}>
+              <NavIcon></NavIcon>
+              React
+            </NavLogo>
+            <HamburgerIcon onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </HamburgerIcon>
+            <NavMenu onclick={handleClick} click={click}>
+              <NavItem>
+                <NavLinks to="/" onClick={closeMobileMenu}>
+                  HOME
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/services" onClick={closeMobileMenu}>
+                  SERVICES
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/products" onClick={closeMobileMenu}>
+                  PRODUCTS
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/contact" onClick={closeMobileMenu}>
+                  CONTACT
+                </NavLinks>
+              </NavItem>
+            </NavMenu>
+          </NavbarContainer>
+        </Nav>
+      </IconContext.Provider>
+    </div>
+  );
+};
+
+export default Navbar;
