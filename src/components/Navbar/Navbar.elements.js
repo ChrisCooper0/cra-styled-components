@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { Container } from "../../globalStyles";
-import { FaBolt } from "react-icons/fa";
+import { FaRegSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
-  background-color: #101522;
+  background-color: #0e1111;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -27,13 +27,15 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
   display: flex;
   align-items: center;
 `;
 
-export const NavIcon = styled(FaBolt)`
+export const NavIcon = styled(FaRegSquare)`
   margin-right: 1.5rem;
+  font-size: 2rem;
+  transform: rotate(45deg);
 `;
 
 export const HamburgerIcon = styled.div`
@@ -66,7 +68,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")}};
     opacity: 1;
     transition: all 0.5s ease;
-    background-color: #101522;
+    background-color: #0e1111;
   }
 `;
 
@@ -76,7 +78,7 @@ export const NavItem = styled.li`
   transition: all 0.5s ease-out;
 
   &:hover {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid whitesmoke;
     transition: all 0.5s ease;
   }
   @media screen and (max-width: 960px) {

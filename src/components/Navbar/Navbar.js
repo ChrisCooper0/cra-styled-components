@@ -31,7 +31,7 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon></NavIcon>
-              React
+              DIAMOND DESIGN
             </NavLogo>
             <HamburgerIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -43,13 +43,13 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/services" onClick={closeMobileMenu}>
-                  SERVICES
+                <NavLinks to="/about" onClick={closeMobileMenu}>
+                  ABOUT
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
-                  PRODUCTS
+                <NavLinks to="/portfolio" onClick={closeMobileMenu}>
+                  PORTFOLIO
                 </NavLinks>
               </NavItem>
               <NavItem>
