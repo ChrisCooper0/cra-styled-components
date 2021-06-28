@@ -3,7 +3,7 @@
 ### Styled completely via styled-components
 ### React Icons provides Font Awesome icons
 ### Utilises useState for the navbar functionality
-### Here's a link to a hosted version - [Live Site]()
+### Here's a link to a hosted version - [Live Site](https://pedantic-pasteur-23f209.netlify.app/)
 ### Alternatively the repo locally and run 'npm install' then 'npm start' to check it out!
 
 
