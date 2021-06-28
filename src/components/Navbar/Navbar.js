@@ -10,7 +10,7 @@ import {
   NavLinks,
 } from "./Navbar.elements";
 
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaStickyNote, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
 const Navbar = () => {
@@ -21,6 +21,15 @@ const Navbar = () => {
   };
 
   const closeMobileMenu = () => {
+    setClick(false);
+  };
+
+  const scrollToBottom = () => {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0,
+      behavior: "smooth",
+    });
     setClick(false);
   };
 
@@ -53,7 +62,7 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/contact" onClick={closeMobileMenu}>
+                <NavLinks to="/" onClick={scrollToBottom}>
                   CONTACT
                 </NavLinks>
               </NavItem>
