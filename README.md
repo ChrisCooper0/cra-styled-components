@@ -1,8 +1,8 @@
-## React site using Router and styled-components
+## React with styled-components
 ### A concept site for a web development agency
-### Styled completely via styled-components
-### React Icons provides Font Awesome icons
-### Utilises useState for the navbar functionality
+* Uses React Router and the useState Hook
+* Styled completely via styled-components
+* React Icons provides the Font Awesome icons
 ### Here's a link to a hosted version - [Live Site](https://pedantic-pasteur-23f209.netlify.app/)
 ### Alternatively the repo locally and run 'npm install' then 'npm start' to check it out!
 
