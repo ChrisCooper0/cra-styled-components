@@ -10,7 +10,7 @@ import {
   NavLinks,
 } from "./Navbar.elements";
 
-import { FaBars, FaStickyNote, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
 const Navbar = () => {
