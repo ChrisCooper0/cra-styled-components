@@ -31,7 +31,7 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon></NavIcon>
-              DIAMOND DESIGN
+              CRC
             </NavLogo>
             <HamburgerIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

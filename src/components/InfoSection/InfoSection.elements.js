@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const InfoSec = styled.div`
-  color: #fff;
-  padding: 160px 0;
-  height: 85vh;
-  background: ${({ lightBg }) => (lightBg ? "#f1f1f1" : "#0e1111")}};
+  padding: 150px 0;
+  height: 85%;
+  background: ${({ lightBg }) => (lightBg ? "#F4F4F4" : "#0e1111")}};
 `;
 
 export const InfoRow = styled.div`
@@ -45,7 +44,6 @@ export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 3.75rem;
   line-height: 1.2;
-  font-weight: 800;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#0e1111")};
 `;
 
