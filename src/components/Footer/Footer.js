@@ -57,12 +57,7 @@ const Footer = () => {
               <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
-                href={"//www.youtube.com/"}
-                rel="noopener noreferrer"
-                target="_blank"
-                aria-label="Youtube"
-              >
+              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Twitter">
