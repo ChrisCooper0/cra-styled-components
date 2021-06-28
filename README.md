@@ -1,3 +1,12 @@
+## React site using Router and styled-components
+### A concept site for a web development agency
+### Styled completely via styled-components
+### React Icons provides Font Awesome icons
+### Utilises useState for the navbar functionality
+### Here's a link to a hosted version - [Live Site]()
+### Alternatively the repo locally and run 'npm install' then 'npm start' to check it out!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
