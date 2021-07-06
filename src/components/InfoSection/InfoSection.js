@@ -25,7 +25,7 @@ const InfoSection = ({
   return (
     <div>
       <InfoSec lightBg={lightBg}>
-        <Container data-aos="fade-up">
+        <Container data-aos="fade-up" data-aos-duration="1500">
           <InfoRow imgLeft={imgLeft}>
             <InfoColumn>
               <TextWrapper>
