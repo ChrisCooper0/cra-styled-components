@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   homeObjOne,
   homeObjTwo,
@@ -9,6 +11,9 @@ import {
 import { InfoSection } from "../../components";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div>
       <InfoSection {...homeObjOne} />
