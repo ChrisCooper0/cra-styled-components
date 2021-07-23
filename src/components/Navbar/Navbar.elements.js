@@ -4,7 +4,7 @@ import { FaRegSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
-  background-color: #0e1111;
+  background-color: #2a2a36;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -38,6 +38,7 @@ export const NavIcon = styled(FaRegSquare)`
   margin-right: 1.5rem;
   font-size: 2rem;
   transform: rotate(45deg);
+  fill: #0dcaf0;
 `;
 
 export const HamburgerIcon = styled.div`
@@ -70,24 +71,15 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")}};
     opacity: 1;
     transition: all 0.5s ease;
-    background-color: #0e1111;
+    background-color: #2a2a36;
   }
 `;
 
 export const NavItem = styled.li`
   height: 80px;
-  border-bottom: 3px solid transparent;
-  transition: all 0.5s ease-out;
 
-  &:hover {
-    border-bottom: 3px solid whitesmoke;
-    transition: all 0.5s ease;
-  }
   @media screen and (max-width: 960px) {
     width: 100%;
-    &:hover {
-      border: none;
-    }
   }
 `;
 
@@ -99,13 +91,15 @@ export const NavLinks = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%;
 
+  &:hover {
+    color: #0dcaf0;
+  }
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
     &:hover {
-      color: #4b59f7;
       transition: all 0.3s ease;
     }
   }

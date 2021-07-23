@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaRegSquare } from "react-icons/fa";
 
 export const FooterContainer = styled.div`
-  background-color: #0e1111;
+  background-color: #2a2a36;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -62,9 +62,7 @@ export const FooterLink = styled.div`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid black;
-    transition: 0.3s ease-out;
-    color: #a9b3c1;
+    color: #0dcaf0;
   }
 `;
 
@@ -100,6 +98,7 @@ export const SocialIcon = styled(FaRegSquare)`
   margin-right: 1.5rem;
   font-size: 2rem;
   transform: rotate(45deg);
+  fill: #0dcaf0;
 `;
 
 export const WebsiteRights = styled.small`
@@ -117,4 +116,7 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  &:hover {
+    color: #0dcaf0;
+  }
 `;

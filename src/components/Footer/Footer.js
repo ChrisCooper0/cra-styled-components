@@ -35,7 +35,7 @@ const Footer = () => {
               <FooterLink to="/phone">PHONE</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
-              <FooterLinkTitle>SITEMAP</FooterLinkTitle>
+              <FooterLinkTitle>LINKS</FooterLinkTitle>
               <FooterLink to="/home">HOME</FooterLink>
               <FooterLink to="/about">ABOUT</FooterLink>
               <FooterLink to="/portfolio">PORTFOLIO</FooterLink>

@@ -17,7 +17,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   headline: "A custom website at a fair price",
   description:
-    "We build your web and mobile applications with cost in mind, no need for expensive hosting or databases.",
+    "We build your web and mobile applications with cost in mind, no need for expensive hosting or complex databases.",
   start: " ",
   img: require("../images/homeObjTwo.svg").default,
   alt: "image",
