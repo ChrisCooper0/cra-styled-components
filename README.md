@@ -4,7 +4,7 @@
 * Styled completely via styled-components
 * React Icons provides the Font Awesome icons
 ### Here's a link to a hosted version - [Live Site](https://pedantic-pasteur-23f209.netlify.app/)
-### Alternatively the repo locally and run 'npm install' then 'npm start' to check it out!
+### Alternatively clone the repo locally and run 'npm install' then 'npm start' to check it out!
 
 
 # Getting Started with Create React App
