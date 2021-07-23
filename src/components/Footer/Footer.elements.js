@@ -35,14 +35,11 @@ export const FooterLinksItems = styled.div`
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  width: 160px;
+  width: 250px;
   box-sizing: border-box;
   color: #0e1111;
-
-  @media screen and (max-width: 420px) {
-    margin: 0;
-    padding: 10px;
-    width: 100%;
+  @media screen and (max-width: 820px) {
+    width: 160px;
   }
 `;
 
@@ -52,6 +49,9 @@ export const FooterLinkTitle = styled.div`
   font-weight: 800;
   font-size: 1.2rem;
   color: #fff;
+  @media screen and (max-width: 820px) {
+    margin-top: 2rem;
+  }
 `;
 
 export const FooterLink = styled.div`
@@ -59,7 +59,6 @@ export const FooterLink = styled.div`
   text-decoration: none;
   margin-bottom: 0.5rem;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
 
   &:hover {
     color: #0dcaf0;
@@ -111,6 +110,9 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  @media screen and (max-width: 820px) {
+    margin: 1.5rem;
+  }
 `;
 
 export const SocialIconLink = styled.a`

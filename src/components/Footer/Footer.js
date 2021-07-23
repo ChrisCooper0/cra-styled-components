@@ -49,7 +49,6 @@ const Footer = () => {
               <SocialIcon />
               CRC
             </SocialLogo>
-            <WebsiteRights>CRC © 2021</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                 <FaFacebook />
@@ -69,6 +68,7 @@ const Footer = () => {
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
+        <WebsiteRights>CRC © 2021</WebsiteRights>
       </FooterContainer>
     </div>
   );
