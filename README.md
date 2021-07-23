@@ -1,4 +1,4 @@
-## React with styled-components
+## React with styled-components 💅
 ### A concept site for a web development agency
 * Uses React Router and the useState Hook
 * Styled completely via styled-components
